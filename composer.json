@@ -1,0 +1,20 @@
+{
+    "name": "as3/short-mongo-id",
+    "license": "MIT",
+    "type": "library",
+    "description": "Generates a short string identifier from a Mongo object id value.",
+    "authors": [
+        {
+            "name": "Jacob Bare",
+            "email": "jacob.bare@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "As3\\ShortMongoId\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
